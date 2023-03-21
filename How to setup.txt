@@ -1,0 +1,13 @@
+copy the .gitattribute from my repo
+
+git lfs install // install lfs
+
+git lfs track "file path" // *.extention for that specific extension file
+
+git lfs push --all origin main // branch name
+
+git add .gitattributes // add .git
+
+git commit -m "lfs added"
+
+git push -u origin main // push the change
